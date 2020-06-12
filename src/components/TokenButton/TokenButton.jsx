@@ -7,8 +7,7 @@ function TokenButton() {
   return (
     <TButton>
       <DollarSvg />
-      {"  "}
-      Get more
+      &nbsp; Get more
     </TButton>
   );
 }
@@ -27,6 +26,9 @@ const TButton = styled(Button)(({ theme }) => ({
   alignContent: "space-evenly",
   justifyContent: "center",
   textTransform: "capitalize",
+  "&:hover": {
+    background: "linear-gradient(109.39deg, #2f66f5 0%, #3c38f5 100%)",
+  },
 }));
 
 export default TokenButton;

@@ -144,6 +144,7 @@ const Footer = styled(Button)(({ theme }) => ({
   display: "flex",
   alignContent: "space-evenly",
   justifyContent: "space-evenly",
+  borderRadius: "5px",
 }));
 
 const ExchangePriceBox = styled(Box)(({ theme }) => ({
