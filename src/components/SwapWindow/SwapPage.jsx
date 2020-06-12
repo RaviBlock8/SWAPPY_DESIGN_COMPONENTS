@@ -34,6 +34,7 @@ export default function SwapPage() {
           </SelectC>
         </InputBox1>
       </MainInputBox>
+      <ExchangePriceBox>1 BTC=0.897653999 ETH</ExchangePriceBox>
       <ChartBox>
         <GraphSvg />
       </ChartBox>
@@ -117,7 +118,7 @@ const ChartBox = styled(Box)(({ theme }) => ({
   width: "319px",
   height: "120px",
   border: "1px solid black",
-  marginTop: "30px",
+  marginTop: "8px",
   marginLeft: "auto",
   marginRight: "auto",
   borderRadius: "8px",
@@ -138,9 +139,20 @@ const Footer = styled(Button)(({ theme }) => ({
   fontWeight: "bold",
   marginLeft: "auto",
   marginRight: "auto",
-  marginTop: "18px",
+  marginTop: "10px",
   color: "#4677F5",
   display: "flex",
   alignContent: "space-evenly",
   justifyContent: "space-evenly",
+}));
+
+const ExchangePriceBox = styled(Box)(({ theme }) => ({
+  width: "350px",
+  marginLeft: "auto",
+  marginRight: "auto",
+  textAlign: "right",
+  fontSize: "13px",
+  lineHeight: "21px",
+  fontWeight: "bold",
+  marginTop: "7px",
 }));
