@@ -20,7 +20,7 @@ export default function SwapPage() {
         <InputBox1>
           <Label>FROM</Label>
           <InputField placeholder="0.00" />
-          <SelectC value="btc">
+          <SelectC value="btc" disableUnderline={true}>
             <MenuItemC value="btc">BTC</MenuItemC>
           </SelectC>
         </InputBox1>
@@ -30,7 +30,7 @@ export default function SwapPage() {
         <InputBox1>
           <Label>TO</Label>
           <InputField placeholder="0.00" />
-          <SelectC value="eth">
+          <SelectC value="eth" disableUnderline={true}>
             <MenuItemC value="eth">ETH</MenuItemC>
           </SelectC>
         </InputBox1>
