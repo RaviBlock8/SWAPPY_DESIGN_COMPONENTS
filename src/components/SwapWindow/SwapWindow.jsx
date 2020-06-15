@@ -26,7 +26,7 @@ export default function SwapWindow() {
           <SwapPage />
         </TabPanel>
         <TabPanel style={{ padding: "0px", borderRadius: "10px" }}>
-          <SendPage />
+          <h2>Send page</h2>
         </TabPanel>
         <TabPanel>
           <h2>Any content 2</h2>

@@ -157,14 +157,3 @@ const ExchangePriceBox = styled(Box)(({ theme }) => ({
   fontWeight: "bold",
   marginTop: "7px",
 }));
-
-const ExchangePriceBox = styled(Box)(({ theme }) => ({
-  width: "350px",
-  marginLeft: "auto",
-  marginRight: "auto",
-  textAlign: "right",
-  fontSize: "13px",
-  lineHeight: "21px",
-  fontWeight: "bold",
-  marginTop: "7px",
-}));
