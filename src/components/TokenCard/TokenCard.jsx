@@ -3,12 +3,12 @@ import { Paper, Box } from "@material-ui/core";
 import { styled } from "@material-ui/core/styles";
 import TokenButton from "../TokenButton/TokenButton";
 
-function TokenCard() {
+function TokenCard({ name, amount }) {
   return (
     <div style={{ width: "240px", marginLeft: "30px" }}>
       <TokenPaper component="div">
-        <TokenHeading>BTC</TokenHeading>
-        <TokenValue>229.52</TokenValue>
+        <TokenHeading>{name}</TokenHeading>
+        <TokenValue>{amount}</TokenValue>
         <TokenBalanceLabel>YOUR BALANCE</TokenBalanceLabel>
       </TokenPaper>
       <TokenButton />

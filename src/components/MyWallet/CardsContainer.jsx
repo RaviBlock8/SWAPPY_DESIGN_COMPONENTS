@@ -3,8 +3,7 @@ import useHorizontal from "@oberon-amsterdam/horizontal/hook";
 import TokenCard from "../TokenCard/TokenCard";
 import { Box } from "@material-ui/core";
 import { styled } from "@material-ui/core/styles";
-
-let arr = [1, 1, 1, 1, 1, 1, 1, 1];
+import TokenData from "./TokenData";
 
 export default function CardsContainer() {
   const [container, setContainer] = useState();
@@ -18,10 +17,10 @@ export default function CardsContainer() {
           setContainer(ref);
         }}
       >
-        {arr.map((i) => {
+        {TokenData.map((token) => {
           return (
             <div className="block">
-              <TokenCard />
+              <TokenCard name={token.tokenName} amount={token.amount} />
             </div>
           );
         })}
