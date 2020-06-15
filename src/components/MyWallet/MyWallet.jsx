@@ -1,7 +1,5 @@
 import React from "react";
 import { Drawer, Button, Box } from "@material-ui/core/";
-import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
-import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 import { styled } from "@material-ui/core/styles";
 import CardsContainer from "./CardsContainer";
 import ArrowDownSvg from "./ArrowDownSvg";
