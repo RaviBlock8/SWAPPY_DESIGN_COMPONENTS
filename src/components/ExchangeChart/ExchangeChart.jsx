@@ -39,6 +39,7 @@ function ExchangeChart() {
           fillOpacity={1}
           fill="url(#colorPv)"
           strokeWidth="5.5"
+          stroke="#4677F5"
         />
       </AreaChart>
     </div>
