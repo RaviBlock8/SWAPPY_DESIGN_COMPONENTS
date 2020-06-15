@@ -11,6 +11,7 @@ import { styled } from "@material-ui/core/styles";
 import ConvertIconSvg from "./ConvertIconSvg";
 import DollarSvg from "./DollarSvg";
 import GraphSvg from "./GraphSvg";
+import ExchangeChart from "../ExchangeChart/ExchangeChart";
 
 export default function PoolPage() {
   return (
@@ -35,7 +36,7 @@ export default function PoolPage() {
         </InputBox1>
       </MainInputBox>
       <ChartBox>
-        <GraphSvg />
+        <ExchangeChart />
       </ChartBox>
       <Footer>
         <DollarSvg />
