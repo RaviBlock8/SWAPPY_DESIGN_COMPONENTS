@@ -11,6 +11,7 @@ import { styled } from "@material-ui/core/styles";
 import ConvertIconSvg from "./ConvertIconSvg";
 import DollarSvg from "./DollarSvg";
 import GraphSvg from "./GraphSvg";
+import ExchangeChart from "../ExchangeChart/ExchangeChart";
 
 export default function SwapPage() {
   return (
@@ -36,7 +37,8 @@ export default function SwapPage() {
       </MainInputBox>
       <ExchangePriceBox>1 BTC=0.897653999 ETH</ExchangePriceBox>
       <ChartBox>
-        <GraphSvg />
+        {/* <GraphSvg /> */}
+        <ExchangeChart />
       </ChartBox>
       <Footer>
         <DollarSvg />
