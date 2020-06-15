@@ -4,6 +4,7 @@ import { styled } from "@material-ui/core/styles";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import SwapPage from "./SwapPage";
 import SendPage from "./SendPage";
+import PoolPage from "./PoolPage";
 import "react-tabs/style/react-tabs.css";
 
 export default function SwapWindow() {
@@ -26,10 +27,10 @@ export default function SwapWindow() {
           <SwapPage />
         </TabPanel>
         <TabPanel style={{ padding: "0px", borderRadius: "10px" }}>
-          <h2>Send page</h2>
+          <SendPage />
         </TabPanel>
         <TabPanel>
-          <h2>Any content 2</h2>
+          <PoolPage />
         </TabPanel>
       </Tabs>
     </MainTab>
